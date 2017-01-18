@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pass"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hursat.smartpass2.PassActivity">
+
+    <RelativeLayout
+        android:id="@+id/friend_profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/login_background2"
+        android:elevation="4dp"
+        android:paddingBottom="24dp">
+
+        <ImageView
+            android:id="@+id/friend_profile_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:elevation="5dp"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/friend_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@id/friend_profile_photo"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/friend_profile_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/friend_profile_name"
+            android:layout_toEndOf="@id/friend_profile_photo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/friend_profile_layout"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/friend_event_list" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

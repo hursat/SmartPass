@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "76977356859",
+    "firebase_url": "https://smartpass2-e1af8.firebaseio.com",
+    "project_id": "smartpass2-e1af8",
+    "storage_bucket": "smartpass2-e1af8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76977356859:android:87006f99c2b689dd",
+        "android_client_info": {
+          "package_name": "com.example.hursat.smartpass2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76977356859-r8duge99gtbv2buonba7q86k398ejskp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hursat.smartpass2",
+            "certificate_hash": "AA7112A3A9E42248CD11A38CB2ABED5E98C16D8A"
+          }
+        },
+        {
+          "client_id": "76977356859-ba1d1ea3qbpncroucr4rkedt55ofuplg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hursat.smartpass2",
+            "certificate_hash": "7C3488BB787BACDFC7E94AB254C2D83A4AB2DE08"
+          }
+        },
+        {
+          "client_id": "76977356859-ctp52iq2ls3rvffioc62pje4s0fsj55d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPkbrYugtWY_T_8qBo24D_8jNoiZfs1UY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76977356859-ctp52iq2ls3rvffioc62pje4s0fsj55d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

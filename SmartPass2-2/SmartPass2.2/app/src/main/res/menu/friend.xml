@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_friend"
+        android:icon="@drawable/toolbar_menu_add_user"
+        android:title="Add Friend"
+        android:orderInCategory="1"
+        android:menuCategory="secondary"
+        app:showAsAction="ifRoom"/>
+
+</menu>

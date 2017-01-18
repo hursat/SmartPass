@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu_home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/menu_event_icon"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/menu_friend_icon"
+            android:title="Friends" />
+        <item
+            android:id="@+id/nav_badges"
+            android:icon="@drawable/menu_badge_icon"
+            android:title="Badges" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_privacy"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+
+</menu>
